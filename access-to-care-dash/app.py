@@ -62,4 +62,4 @@ def update_counties(value):
     return dcc.Graph(id="counties_plot", figure=fig2)
 
 if __name__ == "__main__":
-    app.run_server(debug=True)
+    app.run_server(debug=False)
